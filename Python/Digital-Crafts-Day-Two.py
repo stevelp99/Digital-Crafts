@@ -74,10 +74,12 @@ coinstart=int(input("Enter a starting amoiunt of coins: "))
 coin+=coinstart
 print (f'You have {coin} coins')
 choice= str(input("Would you like another coin? yes or no: "))
-if choice =="yes":
-    coin +=1
-    print(coin)
-    
-elif choice =="no":
-    coin+=0
-    print (coin)
+while coin>1:
+    if choice=="yes":
+        coin+=1
+        print (f'You have {coin} coins.')
+        choice= str(input("Would you like another coin? yes or no: "))
+    elif choice =='no':
+        coin +=0
+        print (f'You have {coin} coins.')
+        break
