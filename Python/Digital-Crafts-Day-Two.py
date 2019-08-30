@@ -12,19 +12,19 @@ print('''
 # PROBLEM 4 & 5: user give a day in numerical format, and returns the day of the week.
 day = int(input("Enter a number between 0-6: "))
 if day == 0:
-    print ("Sunday, sleep in")
+    print ("Today is Sunday, sleep in")
 elif day == 1:
-    print ("Monday, go to work")
+    print ("Today is Monday, go to work")
 elif day == 2:
-    print ("Tuesday, go to work")
+    print ("Today is Tuesday, go to work")
 elif day == 3:
-    print ("Wednesday, go to work")
+    print ("Today is Wednesday, go to work")
 elif day == 4:
-    print ("Thursday, go to work")
+    print ("Today is Thursday, go to work")
 elif day ==5:
-    print ("Friday, go to work")
+    print ("Today is Friday, go to work")
 elif day ==6:
-    print ("Saturday, sleep in")
+    print ("Today is Saturday, sleep in")
 else:
     print ("invalid")
 print('''
