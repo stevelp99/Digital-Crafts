@@ -69,8 +69,6 @@ while a <= 10:
 print('''
 =======================================================================''')
 # Problem 10: counting coins
-print('''
-=================================''')
 coin=0
 coinstart=int(input("Enter a starting amoiunt of coins: "))
 coin+=coinstart
